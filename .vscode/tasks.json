@@ -1,0 +1,22 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558 
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "WordPress Theme Build",
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "WordPress Theme Sync",
+      "type": "shell",
+      "command": "sync-glob '**/*' '!node_modules/**/*' '../theme-wordpress-dev/node_modules/@vuefront/theme-wordpress' --watch --delete",
+      "problemMatcher": [],
+      "presentation": {
+        "group": "Front"
+      }
+    }
+  ]
+}

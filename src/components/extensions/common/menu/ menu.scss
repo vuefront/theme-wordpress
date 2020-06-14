@@ -1,0 +1,36 @@
+.vf-e-common-menu {
+    background-color: #229ac8;
+    background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+    background-repeat: repeat-x;
+    border-color: #1f90bb #1f90bb #145e7a;
+    min-height: 40px;
+    padding: 0px 15px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    &__item {
+        background: none;
+        >.vf-e-common-menu__link {
+            padding: 1.618em 1em;
+            >.vf-e-common-menu__title,
+            >.vf-e-common-menu__icon {
+                color: #fff;
+                font-size: 12px;
+            }
+        }
+    }
+    &__submenu {
+        &--vertical {
+            top: 39px;
+        }
+        .vf-e-common-menu__item {
+            background: #fff;
+        }
+        .vf-e-common-menu__link {
+            >.vf-e-common-menu__title,
+            >.vf-e-common-menu__icon {
+                color: #333;
+                font-size: 12px;
+            }
+        }
+    }
+}
