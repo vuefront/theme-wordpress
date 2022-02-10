@@ -54,7 +54,7 @@
         "babel-plugin-transform-inline-environment-variables": "^0.4.3",
         "cross-env": "^7.0.0",
         "file-loader": "^5.1.0",
-        "node-sass": "^4.13.1",
+        "node-sass": "^7.0.0",
         "shx": "^0.3.2",
         "vue-i18n": "^8.15.3",
         "vue-loader": "^15.9.0",
